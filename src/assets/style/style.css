@@ -1,0 +1,33 @@
+*{
+    @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.AppMain{
+    height: 100vh;
+    background-image: url("../img/unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 3em;
+}
+
+.search{
+    height: 25px;
+    width: 40%;
+    margin-top: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1.3em;
+    border: #798792 1px solid;
+}
